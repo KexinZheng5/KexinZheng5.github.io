@@ -1,0 +1,59 @@
+/*
+ <div class="row">
+    <div class="column"> <a href="http://linkedin.com">
+      <i class="Linkedin huge square icon"></i></a></div>
+    <div class="column"> <a href="http://facebook.com">
+        <i class="Facebook huge square icon"></i></a></div>
+        padding-bottom: 30px;
+  padding-top: 230px;
+  padding-left:80px;
+  padding-right:80px;
+*/
+.overall{
+  position: relative;
+  color: #1d2f43;
+  margin: 20px 80px 52px 80px;
+}
+.navigationBarUl{
+background-color:#181818;
+overflow:hidden;
+padding-top: 15px;
+padding-bottom:15px;
+padding-left: 60px;
+}
+.navigationBarUl li{
+  margin:0;
+  float:left;
+  display: block;
+  text-decoration: none;
+}
+.navigationBarUl a{
+  color:white;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+.navigationBarUl a:hover{
+background-color:#445873;
+color: white
+}
+.start{
+  padding: 230px 80px 30px 80px;
+  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/22550235_1954711094744262_3916600091456226336_o.jpg?oh=11c486d84f6bd0ad60f0aa3ad12ed837&oe=5A3CDAEC");
+  background-size: cover;
+  background-color: grey;
+}
+.start h1{
+  font-size: 80px;
+  color: white;
+}
+.start h4{
+  font-size: 20px;
+  color:white
+}
+.project {
+	margin-top: 40px;
+}
+.contact {
+	margin-top: 40px;
+}
