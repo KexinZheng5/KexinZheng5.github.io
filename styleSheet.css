@@ -4,10 +4,6 @@
       <i class="Linkedin huge square icon"></i></a></div>
     <div class="column"> <a href="http://facebook.com">
         <i class="Facebook huge square icon"></i></a></div>
-        padding-bottom: 30px;
-  padding-top: 230px;
-  padding-left:80px;
-  padding-right:80px;
 */
 .overall{
   position: relative;
@@ -38,8 +34,11 @@ background-color:#445873;
 color: white
 }
 .start{
-  padding: 230px 80px 30px 80px;
-  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/22550235_1954711094744262_3916600091456226336_o.jpg?oh=11c486d84f6bd0ad60f0aa3ad12ed837&oe=5A3CDAEC");
+  padding-bottom: 30px;
+  padding-top: 230px;
+  padding-left:80px;
+  padding-right:80px;
+  background-image: url("pic.png"); 
   background-size: cover;
   background-color: grey;
 }
@@ -51,9 +50,9 @@ color: white
   font-size: 20px;
   color:white
 }
-.project {
+.project h1{
 	margin-top: 40px;
 }
-.contact {
+.contact h1{
 	margin-top: 40px;
 }
