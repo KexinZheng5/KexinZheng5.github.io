@@ -1,78 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+<!--
+For more: 
+https://cdnjs.com/libraries/semantic-ui
+https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css
+-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css">
   <link rel="stylesheet" href="styleSheet.css">
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.js"></script>
+  
   <title>Welcome :)</title>
 </head>
+
 <body>
   <div class="start">
     <h1>Hello! </h1>
     <h4>Here is everying that you want to know about me.</h4>
   </div>
-  <div class="navigationBarUl">
-        <li><a href="https://kexinzheng5.github.io/">Home</a></li>
-        <li><a href="https://kexinzheng5.github.io/project/">Project</a></li>
-        <li><a href="https://kexinzheng5.github.io/illustration/">Illustration</a></li>
+  
+  <div id="nav">
+        <a class="active" href="https://kexinzheng5.github.io/home/">Home</a>
+        <a href="https://kexinzheng5.github.io/project/">Project</a>
+        <a href="https://kexinzheng5.github.io/art/">Art</a>
   </div>
+
 <div class="overall">
+
   <div class="intro">
 	<div class="ui grid">
   <div class="row">
     <div class="twelve wide column">
 	 <h1>Short Introduction</h1>
-     <p>Hello. My name is Kexin Zheng, a current student at Ohlone College. My major is computer science,
-      and I am preparing for transfering to a four-year college. In case you are interested(probably not), here are some of the random facts about me: </p>
+     <p>Hello and welcome to my personal website. My name is Kexin Zheng, a current student at Ohlone College. My major is computer science,
+      and I am preparing for transfering to a four-year college. In case you are interested (probably not), here are some of the random facts about me: </p>
 	  <ul>
-		<li>Like drawing, painting(especially oil paint), and games</li>
-		<li>ummm... I guess that's it. (awkward)</li>
+		<li>I'm a lover of drawing, painting(especially oil paint), puzzles, and games. </li>
+		<li>hummm... I guess that's it. (awkward)</li>
 	  </ul>
 	</div>
 	<div class="four wide column">
-	<img src="portrait.png" style="width:130px;height:130px;border: 2px solid #354455;float: right; margin-right:20px;">
+	<img src="pic2.png" 
+	style="width:155px; height:155px; border: 2px solid #354455; border-radius: 20px; float: right; margin-right:20px; margin-top:38px; object-fit: cover;"
+	data-inverted="" data-tooltip="I'm here to make this page less empty..." data-position="bottom center">
 	</div>
    </div>
   </div>
  </div>
-<!--
-  <div class="resume">
-    <h1>Resume</h1>
-      <h2>Education</h2>
+
+  <div class="additional">
+    <h1>Additional Information</h1>
+      <h3>About These Websites</h3>
+		<p>These websites were created for several purposes: 
         <ul>
-          <li>Got high school dipoma</li>
-          <li>Working on the Associate degree</li>
+		  <li>to display my resume</li>
+          <li>to introduce and display the projects that I had worked on or am working on (see navigation bar)</li>
+          <li>to allow others who are interested to have a better understanding of me and what I do</li>
+		  <li>to have my own websites for fun (I always wanted to have my own websites :D)</li>
         </ul>
-      <h2>Skills</h2>
-        <ul>
-          <li>NONE XD</li>
-        </ul>
-      <h2>Working Experience</h2>
-        <ul>
-          <li>None XD</li>
-        </ul>
-      <h2>Projects</h2>
-        <ul>
-        </ul>
+      <h3>About Myself</h3>
+        <p>I think the introduction already tells you a lot about me. However, if you still want more info, 
+		you can always check the contact information section below and ask me questions. </p>
   </div>
--->
 
   <div class="contact">
-  <div class="ui three column grid">
+  <div class="ui four column divided grid">
     <h1>Contact Information</h1>
-  <div class="row">
-    <div class="column">
-    <p>Email: kexinz0227@gmail.com</p>
+	<p>Thanks for visiting my website! If you would like to reach out to me for job opportunities and employment 
+	(thanks for being interested in me if that's the case), please check my LinkedIn and resume page for formal and job-related information. 
+	If you would like to leave comments, suggestions, or criticisms, please feel free to send me Emails or messages on Facebook. 
+	I would appreciate your feedback, even if you are a troll. </p>
+	<p>Again, thanks for clicking in and have a beautiful day. :D</p>
+	
+  <div class="row" id="icons">
+    <div class="column" id="a">
+    <a href="https://www.linkedin.com/in/kexin-zheng-148077160/" data-inverted="" data-tooltip="Click to check my LinkedIn page" data-position="bottom center">
+        <i class="huge linkedin icon"></i></a>
     </div>
-    <div class="column">
-    <p>Phone number: (510)5095961</p>
+    <div class="column" id="b">
+    <a href="https://www.facebook.com/kexin.zheng.549" data-inverted="" data-tooltip="Click to check my Facebook page (fake info alert!)" data-position="bottom center">
+        <i class="huge facebook square icon"></i></a>
     </div>
-    <div class="column">
-    <p>Facebook: Kexin Zheng</p>
+	<div class="column" id="c">
+	<a href="mailto:kexinz0227@gmail.com" data-inverted="" data-tooltip="Click to send me Emails" data-position="bottom center">
+    <i class="huge envelope square icon"></i></a>
+    </div>
+    <div class="column" id="d">
+	<a href="https://github.com/KexinZheng5" data-inverted="" data-variation="wide" data-tooltip="Click to check my GitHub page" data-position="bottom center">
+    <i class="huge github square icon"></i></a>
     </div>
   </div>
+  
   </div>
   </div>
+  
 </div>
-  <p style="color:white; font-size:10px;">Woah! What's this? A hidden message!  XD</p>
+  <p style="color:#eae8f2; font-size:10px;">Woah! What's this? A hidden message!  XD</p>
+  <!--well, I'm just bored...-->
+  
+  <script>
+  //code from w3school.com
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("nav");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sti")
+	  } else {
+		navbar.classList.remove("sti");
+	  }
+	}
+  </script>
+  
 </body>
 </html>
